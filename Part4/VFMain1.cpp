@@ -1,4 +1,4 @@
-// 4-12 shallo copy
+// 4-12
 #include <iostream>
 using namespace std;
 #include "VecF.h"
@@ -7,7 +7,7 @@ int main()
 {
     float a[3] = {1, 2, 3};
     VecF v1(3, a);
-    VecF v2(v1); // shallow copy
+    VecF v2(v1); 
     v1.print();
     cout << endl;
     v2.print();
